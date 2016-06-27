@@ -1,4 +1,4 @@
-// Generated on 2016-06-25 using generator-angular-fullstack 2.0.13
+// Generated on 2015-08-23 using generator-angular-fullstack 2.0.13
 'use strict';
 
 module.exports = function (grunt) {
@@ -67,7 +67,8 @@ module.exports = function (grunt) {
         files: [
           '<%= yeoman.client %>/{app,components}/**/*.css'
         ],
-        tasks: ['injector:css']
+        tasks: ['injector:css'],
+
       },
       mochaTest: {
         files: ['server/**/*.spec.js'],
@@ -93,7 +94,8 @@ module.exports = function (grunt) {
           '<%= yeoman.client %>/assets/images/{,*//*}*.{png,jpg,jpeg,gif,webp,svg}'
         ],
         options: {
-          livereload: true
+          livereload: false,
+          nospawn: false
         }
       },
       express: {
@@ -300,7 +302,7 @@ module.exports = function (grunt) {
     ngtemplates: {
       options: {
         // This should be the name of your apps angular module
-        module: 'diplommeApp',
+        module: 'nearbyApp',
         htmlmin: {
           collapseBooleanAttributes: true,
           collapseWhitespace: true,
