@@ -14,7 +14,15 @@
     "font-awesome": ">=4.1.0",
     "lodash": "~2.4.1",
     "angular-socket-io": "~0.6.0",
-    "angular-ui-router": "~0.2.10"
+    "angular-ui-router": "~0.2.10",
+    "weather-icons": "git@github.com:erikflowers/weather-icons.git#master",
+    "open-iconic": "git@github.com:iconic/open-iconic.git#master",
+    "mfglabs-iconset": "git@github.com:MfgLabs/mfglabs-iconset.git#master",
+    "Ionicons": "git@github.com:driftyco/ionicons.git#master",
+    "web-icons": "git@github.com:amazingSurge/web-icons.git#master",
+    "themify-icons": "https://github.com/lykmapipo/themify-icons.git",
+    "pixeden-stroke-7-icon": "https://github.com/olimsaidov/pixeden-stroke-7-icon",
+    "brand-icons": "git@github.com:amazingSurge/brand-icons.git#master"
   },
   "devDependencies": {
     "angular-mocks": ">=1.2.*",
